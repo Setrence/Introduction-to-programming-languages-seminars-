@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Евгений\\Desktop\\Seminars\\Examnle_001\\Seminars.csproj",
-      "projectName": "Seminars",
-      "projectPath": "C:\\Users\\Евгений\\Desktop\\Seminars\\Examnle_001\\Seminars.csproj",
+      "projectUniqueName": "C:\\Users\\Евгений\\Desktop\\Seminars\\Examnle_001\\Examnle_001.csproj",
+      "projectName": "Examnle_001",
+      "projectPath": "C:\\Users\\Евгений\\Desktop\\Seminars\\Examnle_001\\Examnle_001.csproj",
       "packagesPath": "C:\\Users\\Евгений\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Евгений\\Desktop\\Seminars\\Examnle_001\\obj\\",
       "projectStyle": "PackageReference",

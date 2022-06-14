@@ -4,7 +4,7 @@ Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int number2 = 0;
 
-if (number > 100)
+if (number >= 100)
 {
     int number3 = Metod(number, number2);
     Console.WriteLine($"Третья цифра числа будет {number3}");

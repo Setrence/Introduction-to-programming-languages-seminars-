@@ -12,11 +12,11 @@ int number3 = numberA;
 
 int Metod(int numberA, int numberB, int number3)
 {
-for (int i = 1; numberB > i; i++)
-{
-    number3 = number3 * numberA;
-}
-return (number3);
+    for (int i = 1; numberB > i; i++)
+    {
+        number3 = number3 * numberA;
+    }
+    return (number3);
 }
 
 Console.WriteLine($"Ответ: {Metod(numberA, numberB, number3)}");

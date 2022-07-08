@@ -1,27 +1,18 @@
 ﻿//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
-int[] array = new int[4];
-int max = 0;
-int min = array[0];
-int substr = 0;
+double[] array = new double [4];
+double max = 0;
+double substr = 0;
 
-for (int i=0; i< array.Length; i++)
+for (int i = 0; i < array.Length; i++)
 {
-    array[i] = new Random(). Next(-100 , 100);
+    Console.WriteLine("Введите число:");
+    array[i] = Convert.ToDouble(Console.ReadLine());
 }
 
-PrintArray(array);
+double min = array[0];
 
-void PrintArray(int[] array)
-{
-    for (int i=0; i< array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
-
-void Max (int[] array)
+void Max (double[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -34,7 +25,7 @@ void Max (int[] array)
     Console.WriteLine($"max = {max}");
 }
 
-void Min (int[] array)
+void Min (double[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {

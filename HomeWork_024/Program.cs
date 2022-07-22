@@ -6,9 +6,9 @@ Console.Write("Введите число m: ");
 int numberM = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число n: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(SumNaturalNumber(numberM, numberN));
+Console.WriteLine(FunctionAkkerman(numberM, numberN));
 
-int SumNaturalNumber(int numberM, int numberN)
+int FunctionAkkerman(int numberM, int numberN)
 {
     if (numberM == 0)
     {
@@ -16,11 +16,11 @@ int SumNaturalNumber(int numberM, int numberN)
     }
     else if (numberM > 0 && numberN == 0)
     {
-        return (SumNaturalNumber(numberM - 1, 1));
+        return (FunctionAkkerman(numberM - 1, 1));
     }    
     else if (numberM > 0 && numberN > 0)
     {
-        return (SumNaturalNumber(numberM - 1, SumNaturalNumber(numberM, numberN - 1)));
+        return (FunctionAkkerman(numberM - 1, FunctionAkkerman(numberM, numberN - 1)));
     }   
     else return (0);
 }
